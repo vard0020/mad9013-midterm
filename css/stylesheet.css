@@ -1,0 +1,283 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+*{
+	padding:0;
+	margin:0;
+}	
+body{
+	font-size: 62.5%;	
+  /** you can set this as 100% if you want **/
+
+}
+h1, h2, h3{
+	font-weight: 700;	
+	padding: 10px 20px;
+	color: #000;
+}
+h1{
+	font-size: 3.6rem;	
+    text-align:center;
+	font-family: 'Parisienne', 'Copperplate', 'Papyrus', cursive;
+    background-color: #EDD5D1;
+    
+}
+h2{
+	font-size: 3.0rem;	
+	font-family: 'Volkhov', 'Big Caslon', 'Bodoni MT', 'Cambria', 'Georgia', serif;
+}
+h3{
+	font-size: 2.4rem;
+    font-family: 'Volkhov', 'Big Caslon', 'Bodoni MT', 'Cambria', 'Georgia', serif;
+    color: #494949;	
+}
+p, li, a{
+	font-weight: 400;
+	color: #555;
+    font-family: 'Fresca', 'Arial Narrow', 'Avant Garde', 'Geneva', 'Helvetica', sans-serif;
+    color:#7F5D47;
+}
+p{
+	padding: 10px 20px;
+	font-size: 1.4rem;
+}
+li{
+	font-size: 1.4rem;
+}
+ol li{
+	padding: 6px 20px;
+	margin-left: 20px;
+	list-style-position:inside;
+}
+
+a{
+	font-size: 1.4rem;
+}
+
+/***********************************
+					Layout
+***********************************/
+.wrapper{
+	background-color: #fff;	
+    
+}
+.masthead{
+    background-color: #B0BDD4;
+	
+}
+.nav{
+	
+}
+.navbar{
+    padding:0;
+	
+}
+.main{
+	
+}
+.sidebar{
+	
+}
+.footer{
+    clear:both;
+    
+	
+}
+/***********************************
+					Masthead
+***********************************/
+.masthead h1{
+	padding: 30px 20px;
+}
+
+/***********************************
+					Navigation
+***********************************/
+
+.navbar li{
+  list-style: none;
+}
+.navbar a{
+	display: block;	
+	padding: 8px 16px;
+	text-align: center;
+	text-decoration: none;
+	color: #333;
+	 background-color: #DDE0CD;
+}
+
+
+.navbar a:visited,
+.navbar a:hover,
+.navbar a:active,
+.navbar a:focus{
+	color: #fff;
+	background-color: #FFCC99;
+}
+
+/***********************************
+					Content
+***********************************/
+.sidebar p{
+	font-size: 1.4rem;	
+}
+.instructions{
+	color: #C30;	
+}
+/***********************************
+					Footer
+***********************************/
+.footer p{
+	padding: 20px 20px;
+	font-size: 1.2rem;
+	color: #999;	
+	background-color: #EDD5D1;
+    
+}
+
+/*********************************
+     Media queries for browser sizes
+********************************/
+
+@media screen and (min-width: 1080px){
+  .nav{
+    
+      width:20%;
+      float:left;
+      line-height: 3rem;
+  }
+    
+    .main {
+    
+      width: 40%;
+      float:left;
+      text-align:justify;
+      
+    }
+    
+    .two, .three{
+    
+      width: 20%;
+      float:left;
+      text-align:justify;
+        
+    }
+}
+
+@media screen and (min-width: 720px) and (max-width: 1080px)
+{
+    
+    .navbar li {
+
+        float:left;
+        width:25%;
+    }
+    
+    .main {
+    
+      width: 50%;
+      float:left;
+      text-align:justify;
+      
+    }
+    
+    .two, .three {
+    
+      width: 25%;
+      float:left;
+      text-align:justify;
+        
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 719px)
+{
+   .navbar li {
+
+        float:left;
+        width:25%;
+    } 
+    
+    .main {
+    
+      width: 100%;
+      float:left;
+      text-align:justify;
+      
+    }
+    
+    .two, .three {
+    
+      width: 50%;
+      float:left;
+      text-align:justify;
+        
+    }
+    
+   
+}
+
+@media screen and (min-width: 0px) and (max-width: 499px)
+{
+   .nav {
+       width:100%;
+       float:left;
+   }
+    .navbar li {
+
+        float:left;
+        width:50%;
+    } 
+    
+    .main, .two, .three {
+    
+      width: 100%;
+      float:left;
+      text-align:justify;
+        
+    }
+}
+
+/*********************************
+ Media queries for font sizes
+********************************/
+
+
+@media screen and (min-width: 600px) and (max-width: 830px)
+{
+    h1 {font-size: 2.5rem;}
+    h2 {font-size: 2.2rem;}
+    h3 {font-size: 1.6rem;}
+    
+}
+    
+    
+@media screen and (min-width: 400px) and (max-width: 600px)
+{
+       h1 {font-size: 1.7rem;}
+       h2 {font-size: 2.4rem;}
+       h3 {font-size: 1.8rem;}
+   }
+    
+    
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
